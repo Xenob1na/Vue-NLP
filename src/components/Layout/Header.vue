@@ -5,19 +5,37 @@
         </div>
         <nav>
             <ul class="flex gap-7">
-                <li class="text-[20px] text-white font-bold font-oswald">Главная</li>
-                <li class="text-[20px] text-white font-bold font-oswald">Преимущества</li>
-                <li class="text-[20px] text-white font-bold font-oswald">Программа</li>
-                <li class="text-[20px] text-white font-bold font-oswald">Контакты</li>
+                <li class="text-[20px] text-white font-bold font-oswald hover:underline hover:decoration-[#F39F30]" v-for="(navs, index) in nav" key="index">
+                    <a :href="navs.path">{{ navs.name }}</a>
+                </li>
             </ul>
         </nav>
         <div>
-            <button class="bg-[#FFF] text-[20px] text-[#0650E6] px-[39px] py-[11px] font-bold font-oswald">Записаться</button>
+            <button class="bg-[#FFF] text-[20px] text-[#0650E6] px-10 py-3 font-bold font-oswald hover:bg-[#0650E6] hover:text-[#fff] delay-[100ms] transition-all">Записаться</button>
         </div>
     </header>
     <hr class="max-w-[1200px] mx-auto mt-5">
 </template>
 
 <script setup>
+import { ref } from 'vue';
 
+const nav = ref([
+    {
+        name: 'Главная',
+        path: '#Home'
+    },
+    {
+        name: 'Преимущества',
+        path: '#Advantages'
+    },
+    {
+        name: 'Программа',
+        path: '#Program'
+    },
+    {
+        name: 'Контакты',
+        path: '#Contact'
+    },
+])
 </script>
