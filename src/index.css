@@ -10,3 +10,7 @@ body {
 @keyframes hu__hu__ {
     50% { transform: translateY(30px) }
 }
+
+.no-scroll {
+    overflow-y: hidden;
+  }
