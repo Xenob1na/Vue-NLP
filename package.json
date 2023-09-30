@@ -8,7 +8,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emailjs/browser": "^3.11.0",
     "@vueuse/motion": "^2.0.0",
+    "emailjs": "^4.0.3",
     "vue": "^3.3.4"
   },
   "devDependencies": {
