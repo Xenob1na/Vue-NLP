@@ -1,17 +1,17 @@
 <template>
-    <footer class="max-w-[1200px] mx-auto mt-[110px]" id="Contact">
+    <footer class="max-w-[1200px] mx-auto mt-[110px] lg:mx-5" id="Contact">
         <div>
-            <h2 class="text-[45px] font-oswald font-bold leading-[130%] text-white" v-motion-pop-visible>
+            <h2 class="text-[45px] sm:text-[40px] font-oswald font-bold leading-[130%] text-white" v-motion-pop-visible>
                 <span class="text-[#F39F30]">Остались вопросы</span><br>
                 и не знаешь как быть ?
             </h2>
         </div>
-        <div class="ml-[200px] flex justify-between my-[34px] items-center">
-            <div>
-                <p class="max-w-[470px] text-[20px] font-lato font-medium text-white" v-motion-pop-visible>Напиши мне или оставь заявку, и я полностью проконсультирую вас по всем вашим вопросам</p>
+        <div class="ml-[200px] lg:ml-0 flex justify-between my-[34px] items-center sm:block">
+            <div class="sm:mb-5">
+                <p class="max-w-[470px] sm:text-[18px] text-[20px] font-lato font-medium text-white" v-motion-pop-visible>Напиши мне или оставь заявку, и я полностью проконсультирую вас по всем вашим вопросам</p>
             </div>
             <div>
-                <button class="bg-[#fff] text-[#0650E6] text-[20px] font-oswald font-medium py-4 px-6 hover:bg-[#0650E6] hover:text-[#fff] delay-[100ms] transition-all" v-motion-pop-visible @click="OpenModel">Оставить заявку</button>
+                <button class="bg-[#fff] text-[#0650E6]  text-[20px] font-oswald font-medium py-4 px-6 hover:bg-[#0650E6] hover:text-[#fff] delay-[100ms] transition-all" v-motion-pop-visible @click="OpenModel">Оставить заявку</button>
             </div>
         </div>
         <div>

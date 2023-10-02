@@ -1,10 +1,10 @@
 <template>
-    <div class="max-w-[1200px] mx-auto flex justify-between" v-motion-pop-visible-once>
-        <div class="mt-[162px]">
+    <div class="max-w-[1200px] mx-auto flex justify-between lg:mx-5" v-motion-pop-visible-once>
+        <div class="mt-[162px] lg:mt-[50px]">
             <div>
-                <h1 class="text-[50px] font-oswald font-bold text-[#fff]">Инженер-программист <span
+                <h1 class="text-[50px] font-oswald font-bold text-[#fff] sm:text-[45px]">Инженер-программист <span
                         class="text-[#F39F30]">Python</span></h1>
-                <article class="max-w-[670px] mt-[10px] text-[20px] font-lato font-medium text-white leading-[130%]">
+                <article class="max-w-[670px] mt-[10px] sm:text-[18px] text-[20px] font-lato font-medium text-white leading-[130%]">
                     Станьте инженером-программистом на одном из самых простых и популярных языков программирования Python.
                     Вы
                     сможете писать сайты, приложения, нейросети и программы для научных исследований и работы, на которую вы
@@ -27,7 +27,7 @@
                 </div>
             </div>
         </div>
-        <div class="mt-5">
+        <div class="mt-5 lg:hidden">
             <img src="/img/man.png" alt="man" class="cssanimation hu__hu__">
         </div>
     </div>

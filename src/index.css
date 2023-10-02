@@ -4,12 +4,12 @@
 
 @font-face {
     font-family: 'Oswald';
-    src: url(./fonts/oswald/Oswald-VariableFont_wght.ttf);
+    src: url(../public/fonts/oswald/Oswald-VariableFont_wght.ttf);
 }
 
 @font-face {
     font-family: 'Lato';
-    src: url(./fonts/lato/Lato-Regular.ttf);
+    src: url(../public/fonts/lato/Lato-Regular.ttf);
 }
 
 body {
