@@ -1,5 +1,5 @@
 <template>
-    <div class="max-w-[1200px] mx-auto mt-[110px]">
+    <div class="max-w-[1200px] mx-auto mt-[110px] lg:mx-5">
         <div>
             <div class="mb-[34px]">
                 <h2 class="text-[45px] sm:text-[40px] font-oswald font-bold leading-[130%] text-white" v-motion-pop-visible>

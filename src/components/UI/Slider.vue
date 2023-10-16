@@ -4,25 +4,25 @@
     }" :modules="modules" class="mySwiper">
         <swiper-slide class="rounded-[22px] min-w-[600px]">
             <div class="flex gap-[50px]">
-                <img src="/img/man-slider1.png" alt="" class="max-w-[200px] py-4">
+                <img src="/img/man-slider1.png" alt="man" class="max-w-[200px] py-4">
                 <p class="max-w-[300px] text-[15px] font-lato font-medium leading-[130%] text-black mt-[90px]"> «Я работаю в крупной компании, у меня много интересных задач и отличные коллеги.<br> Я хотел стать Python-разработчиком, и это получилось — хотя у меня семья, дети, ипотека и мне давно не 20 лет».</p>
             </div>
         </swiper-slide>
         <swiper-slide class="rounded-[22px] min-w-[600px]">
             <div class="flex gap-[50px]">
-                <img src="/img/man-slider2.png" alt="" class="max-w-[200px] py-4">
+                <img src="/img/man-slider2.png" alt="man" class="max-w-[200px] py-4">
                 <p class="max-w-[300px] text-[15px] font-lato font-medium leading-[130%] text-black mt-[90px]"> «Я работаю в крупной компании, у меня много интересных задач и отличные коллеги.<br> Я хотел стать Python-разработчиком, и это получилось — хотя у меня семья, дети, ипотека и мне давно не 20 лет».</p>
             </div>
         </swiper-slide>
         <swiper-slide class="rounded-[22px] min-w-[600px]">
             <div class="flex gap-[50px]">
-                <img src="/img/man-slider3.png" alt="" class="max-w-[200px] py-4">
+                <img src="/img/man-slider3.png" alt="man" class="max-w-[200px] py-4">
                 <p class="max-w-[300px] text-[15px] font-lato font-medium leading-[130%] text-black mt-[90px]"> «Я работаю в крупной компании, у меня много интересных задач и отличные коллеги.<br> Я хотел стать Python-разработчиком, и это получилось — хотя у меня семья, дети, ипотека и мне давно не 20 лет».</p>
             </div>
         </swiper-slide>
         <swiper-slide class="rounded-[22px] min-w-[600px]">
             <div class="flex gap-[50px]">
-                <img src="/img/man-slider4.png" alt="" class="max-w-[200px] py-4">
+                <img src="/img/man-slider4.png" alt="man" class="max-w-[200px] py-4">
                 <p class="max-w-[300px] text-[15px] font-lato font-medium leading-[130%] text-black mt-[90px]"> «Я работаю в крупной компании, у меня много интересных задач и отличные коллеги.<br> Я хотел стать Python-разработчиком, и это получилось — хотя у меня семья, дети, ипотека и мне давно не 20 лет».</p>
             </div>
         </swiper-slide>
