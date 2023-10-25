@@ -25,4 +25,54 @@ body {
     overflow-y: hidden;
   }
 
- 
+  .fade-enter-active, .fade-leave-active {
+    transition: opacity .5s;
+  }
+  .fade-enter, .fade-leave-to {
+    opacity: 0;
+  }
+
+
+
+  
+  nav a {
+    text-decoration: none;
+    display: block;
+    transition: .3s linear;
+  }
+  
+  .topmenu > li > a.active, 
+  .submenu a:hover {color: #F39F30;}
+  
+  .submenu {
+    position: absolute;
+    z-index: 5;
+    min-width: 200px;
+    background: white;
+    border-top: 1px solid #CBCBCC;
+    border-left: 1px solid #CBCBCC;
+    border-right: 1px solid #CBCBCC;
+    visibility: hidden;
+    opacity: 0; 
+    transform-origin: 0% 0%;
+    transform: rotateX(-90deg);
+    transition: .3s linear;  
+  }
+  .submenu li {position: relative;}
+  .submenu li a {
+    color: #282828;
+    padding: 10px 20px;
+    font-size: 15px;
+    border-bottom: 1px solid #CBCBCC;
+  }
+  .submenu .submenu {
+    position: absolute;
+    left: 100%;
+    top: -1px;
+    transition: .3s linear;
+  }
+  nav li:hover > .submenu {
+    transform: rotateX(0deg);
+    visibility: visible;
+    opacity: 1;
+  }
