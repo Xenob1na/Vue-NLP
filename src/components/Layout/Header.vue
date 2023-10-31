@@ -14,8 +14,11 @@
                 <li class="text-[20px] text-white font-bold font-oswald hover:underline hover:decoration-[#F39F30]"><a href="">Контакты</a>
                     <ul class="submenu">
                         <li class="text-[20px] text-white font-bold font-oswald hover:underline hover:decoration-[#F39F30]"
-                            v-for="(navs, index) in nav.slice(3, 5)" key="index">
-                            <a :href="navs.path">{{ navs.name }}</a>
+                             key="index">
+                            <a href="#Contact">Контакты</a>
+                        </li>
+                        <li class="text-[20px] text-white font-bold font-oswald hover:underline hover:decoration-[#F39F30]">
+                            <router-link to="/About">Обо Мне</router-link>
                         </li>
                     </ul>
                 </li>

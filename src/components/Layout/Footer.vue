@@ -20,11 +20,12 @@
                 <p class="text-white text-[25px] font-oswald font-bold uppercase"><a href="https://www.viber.com/ru/">Viber</a></p>
                 <p class="text-white text-[25px] font-oswald font-bold uppercase"><a href="https://www.whatsapp.com/?lang=ru_RU">Whatsapp</a></p>
                 <p class="text-white text-[25px] font-oswald font-bold uppercase"><a href="https://web.telegram.org/k/">Telegram</a></p>
+                <p class="text-white text-[25px] font-oswald font-bold uppercase"><a href="mailto:LitominWork@mail.ru">LitominWork@mail.ru</a></p>
             </div>
             <hr>
         </div>
         <div class="my-[34px]">
-            <p class="text-white text-[20px] font-bold font-oswald text-center" v-motion-pop-visible>©NLP</p>
+            <p class="text-white text-[20px] font-bold font-oswald text-center" v-motion-pop-visible>©NLP-Николай Литомин</p>
         </div>
     </footer>
     <Modal 
